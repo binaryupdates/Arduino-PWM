@@ -1,4 +1,4 @@
-# Arduino-PWM
+# PWM in Arduino, PWM stands for Pulse Width Modulation
 <p>The PWM is cool technique and can be implemented in Arduino is several ways.</p>
 
 <p>The question is where it can be used; Let me give you one example. We have seen very often to turn LED/Light, ON or OFF. But then what, if we don't want to turn either ON or OFF. Rather we want to control voltage so that we can control brightness of an LED/Light. With PWM we can control the Duty Cycle of a Clock.</p>

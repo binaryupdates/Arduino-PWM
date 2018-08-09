@@ -1,7 +1,7 @@
 # Pulse Width Modulation: PWM in Arduino
 <p>The PWM is cool technique and can be implemented in Arduino is several ways.</p>
 
-<p>The question is where it can be used; Let me give you one example. We have seen very often to turn LED/Light, <b>ON</b> or <b>OFF</b>. But then what, if we don't want to turn either ON or OFF. Rather we want to precisely control brightness of an LED/Light. With <b>PWM</b> we can control the <b>Duty Cycle</b> of a <b>Clock.</b></p>
+<p>The question is where it can be used; Let me give you one example. We have seen very often to turn LED/Light, <b>ON</b> or <b>OFF</b>. But then what, if we don't want LED to turn either ON or OFF. Rather we want to precisely control brightness of an LED/Light. With <b>PWM</b> we can control the <b>Duty Cycle</b> of a <b>Clock.</b></p>
 
 <p>Let's look at the picture where we have Clock Frequency in the form of Square Wave. This is <b>Period</b> and <b>Pulse Width</b></p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/pwm_1.png" alt="display this" width=300 height=100 >

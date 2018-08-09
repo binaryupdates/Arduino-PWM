@@ -31,12 +31,12 @@ We have talked enough. Let’s implement it in live project. Where we will Chang
 
 
 <b>STEP 4:</b>
-<p>Let's move even further by making Duty Cycle to 191 in function <b>analogWrite(9, 191)</b>. With this value will achieve <b>75% Duty Cycle<b> means <b>75%</b> of an Highest Brightness.</p>
+<p>Let's move even further by making Duty Cycle to 191 in function <b>analogWrite(9, 191)</b>. With this value will achieve <b>75% Duty Cycle</b> means <b>75% </b> of an Highest Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step4.gif" alt="display this" width=300 height=100 >
 
 
 <b>STEP 5:</b>
-<p>Finally we will insert 255 into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
+<p>Finally we will insert <b>255</b> into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step5.gif" alt="display this" width=300 height=100 >
 
 

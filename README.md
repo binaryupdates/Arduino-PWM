@@ -15,7 +15,7 @@ Arduino Support a function called analogWrite(pin, dutyCycle). Where Duty Cycles
 Let’s do live Demo to Change Brightness of an LED Connected to Pin No: 9 of an Arduino Uno
 
 <b>STEP 1:</b>
-<p>This is an Simple code where we will just add analogWrite(9, 0) to the existing Sketch. With value 0 we will achieve 0% Duty Cycle means LED remains Stays OFF.</p>
+<p>This is an Simple code where we will just add <font color="ff6347">analogWrite</font>(9, 0) to the existing Sketch. With value 0 we will achieve 0% Duty Cycle means LED remains Stays OFF.</p>
 
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step1.gif" alt="display this" width=300 height=100 >
 

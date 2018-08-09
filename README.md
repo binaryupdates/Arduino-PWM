@@ -12,7 +12,7 @@
 The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board. 
 
 <b>Note</b>
-This PWM in Arduino doesn't provide any control over Frequency. Even if the name os function is <b>analogWrite(pin, dutyCycle)</b>, the output is a digital signal, often referred it as a <b>Square Wave.<b>
+This PWM in Arduino doesn't provide any control over Frequency. Even if the name os function is <b>analogWrite(pin, dutyCycle)</b>, the output is a digital signal, often referred it as a <b>Square Wave.</b>
 
 We have talked enough. Let’s implement it in live project. Where we will Change the Brightness of an LED Connected to <b>Pin No: 9</b> of an Arduino Uno
 

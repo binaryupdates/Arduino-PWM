@@ -10,6 +10,7 @@
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/clock_period.png" alt="display this" width=200 height=100 >
 
 <b>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</b>
+<img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/Ton%20Toff%20relation.jpg" alt="display this" width=200 height=100 >
 
 The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board. 
 

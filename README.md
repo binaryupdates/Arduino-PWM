@@ -9,6 +9,8 @@
 <p>Now Let's first understand Period of Clock (Tcycle). It is used to determine speed of our Microcontroller. This Clock is represented as Clock cycle, which is the amount of time between two pulses of an Oscillator. And then Duty cycle is an fraction of time in which signal or system is active.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/clock_period.png" alt="display this" width=200 height=100 >
 
+<center>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</center>
+
 The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board. 
 
 <b>Note</b>

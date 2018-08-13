@@ -9,15 +9,18 @@
 <p>Now Let's first understand Period of Clock (Tcycle). It is used to determine speed of our Microcontroller. This Clock is represented as Clock cycle, which is the amount of time between two pulses of an Oscillator. And then Duty cycle is an fraction of time in which signal or system is active.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/clock_period.png" alt="display this" width=200 height=100 >
 
-<b>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</b>
+<p><b>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</b>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/Ton%20Toff%20relation.jpg" alt="display this" width=200 height=100 >
+</p>
 
-The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board. 
+<p>The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board.<p> 
 
 <b>Note</b>
-This PWM in Arduino doesn't provide any control over Frequency. Even if the name os function is <b>analogWrite(pin, dutyCycle)</b>, the output is a digital signal, often referred it as a <b>Square Wave.</b>
+<p>This PWM in Arduino doesn't provide any control over Frequency. Even if the name os function is <b>analogWrite(pin, dutyCycle)</b>, the output is a digital signal, often referred it as a <b>Square Wave.</b></p>
 
-We have talked enough. Let’s implement it in live project. Where we will Change the Brightness of an LED Connected to <b>Pin No: 9</b> of an Arduino Uno
+<p>We have talked enough. Let’s implement it in live project. Where we will Change the Brightness of an LED Connected to <b>Pin No: 9</b> of an Arduino Uno</p>
+
+<p>Lets connect an <b>RED LED</b> to <b>Arduino Pin 9</b>, make sure we must conenct longer leg of LED connects to Pin No:9 and Shorter leg goes to <b>Ground</b></p>
 
 <b>STEP 1:</b>
 <p>Let's write a code where we will just add <b>analogWrite(9, 0)</b> to the existing Sketch. With value <b>0</b> we will achieve <b>0% Duty Cycle</b> means LED Stays OFF.</p>

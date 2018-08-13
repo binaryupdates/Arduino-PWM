@@ -1,5 +1,5 @@
 # Pulse Width Modulation: PWM in Arduino
-<p>The PWM is cool technique, in which we can Generate Analog Result by Digital Input. Arduino allows us to implement PWM in several ways.</p>
+<p>The PWM is cool technique, in which we can Generate Analog Result means Analog Voltage by Digital Input. Arduino allows us to implement PWM in several ways.</p>
 
 <p>The question is where it can be used; Let me give you one example. We have seen very often to turn LED/Light, <b>ON</b> - <b>OFF</b>. But then what, if we don't want LED to turn ON - OFF. Rather we want to precisely control the brightness of an LED/Light. And this can be done with Pulse Width Modulation Technique <b>(i.e PWM)</b>. Using <b>PWM</b> we can control the <b>Duty Cycle</b> of a <b>Clock.</b> Which in result control brightness of an LED/Light.</p>
 
@@ -43,6 +43,8 @@ We have talked enough. Let’s implement it in live project. Where we will Chang
 <b>STEP 5:</b>
 <p>Finally we will insert <b>255</b> into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step5.gif" alt="display this" width=300 height=100 >
+
+<p>So now we have seen how one can change <b>Duty Cycle</b> of a <b>Clock</b> and change the Brightness of an LED. Lets write a program which will vary duty cycle to generate variable voltage with an delay of every 1 Second.</p>
 
 
 

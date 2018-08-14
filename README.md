@@ -23,7 +23,7 @@
 <p>Lets connect an <b>RED LED</b> to <b>Arduino Pin 9</b>, make sure we must conenct longer leg of LED connects to Pin No:9 and Shorter leg goes to <b>Ground</b></p>
 
 <b>STEP 1:</b>
-<p>Let's write a code where we will just write <b>64</b> in a function <b>analogWrite(9, 64)</b> in the existing Sketch. With value <b>64<b>. We will achieve <b>25% Duty Cycle</b> means LED will glow 1/4th or Quarter of the Highest Brightness.</p>
+<p>Let's write a code where we will just write <b>64</b> in a function <b>analogWrite(9, 64)</b> in the existing Sketch. With value <b>64</b>. We will achieve <b>25% Duty Cycle</b> means LED will glow 1/4th or Quarter of the Highest Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step2.gif" alt="display this" width=300 height=100 >
 
 

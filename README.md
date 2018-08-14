@@ -22,30 +22,29 @@
 
 <p>Lets connect an <b>RED LED</b> to <b>Arduino Pin 9</b>, make sure we must conenct longer leg of LED connects to Pin No:9 and Shorter leg goes to <b>Ground</b></p>
 
-<b>STEP 1:</b>
-<p>Let's write a code where we will just add <b>analogWrite(9, 0)</b> to the existing Sketch. With value <b>0</b> we will achieve <b>0% Duty Cycle</b> means LED Stays OFF.</p>
-
-<img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step1.gif" alt="display this" width=300 height=100 >
-
-
 <b>STEP 2:</b>
-<p>Now as soon as we change value from <b>0</b> to <b>64</b> in a function <b>analogWrite(9, 64)</b> in the existing Sketch. We will achieve <b>25% Duty Cycle</b> means 1/4th or Quarter of the Highest Brightness of an LED.</p>
+<p>Let's write a code where we will just write <b>64</b> in a function <b>analogWrite(9, 64)</b> in the existing Sketch. With value <b>64<b>. We will achieve <b>25% Duty Cycle</b> means LED will glow 1/4th or Quarter of the Highest Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step2.gif" alt="display this" width=300 height=100 >
 
 
 <b>STEP 3:</b>
-<p>Let's increase the value of Duty Cycle to 127 in <b>analogWrite(9, 127)</b> function. With value <b>127</b> we will achieve <b>50% Duty Cycle</b> means <b>50%</b> Brightness.</p>
+<p>Now as soon as we increase the value of Duty Cycle to 127 in <b>analogWrite(9, 127)</b> function. With value <b>127</b> we will achieve <b>50% Duty Cycle</b> means <b>50%</b> Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step3.gif" alt="display this" width=300 height=100 >
 
 
 <b>STEP 4:</b>
-<p>Let's move even further by making Duty Cycle to 191 in function <b>analogWrite(9, 191)</b>. With this value will achieve <b>75% Duty Cycle</b> means <b>75% </b> of an Highest Brightness.</p>
+<p>Let's write value <b>191</b> in function <b>analogWrite(9, 191)</b>. With this value will achieve <b>75% Duty Cycle</b> means <b>75% </b> of an Highest Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step4.gif" alt="display this" width=300 height=100 >
 
 
 <b>STEP 5:</b>
-<p>Finally we will insert <b>255</b> into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
+<p>Let's insert value <b>255</b> into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step5.gif" alt="display this" width=300 height=100 >
+
+<b>STEP 1:</b>
+<p>Finally Let's write <b>0</b> to function <b>analogWrite(9, 0)</b> to the existing Sketch. With value <b>0</b> we will achieve <b>0% Duty Cycle</b> means LED will turn OFF.</p>
+
+<img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step1.gif" alt="display this" width=300 height=100 >
 
 <p>So now we have seen how one can change <b>Duty Cycle</b> of a <b>Clock</b> and change the Brightness of an LED. Lets write a program which will vary duty cycle to generate variable voltage with an delay of every <b>1 Second</b>. This will allows us to create dimming effect with LED.</p>
 

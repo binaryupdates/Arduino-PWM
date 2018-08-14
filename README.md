@@ -9,7 +9,7 @@
 <p>Now Let's first understand Period of Clock (Tcycle). It is used to determine speed of our Microcontroller. This Clock is represented as Clock cycle, which is the amount of time between two pulses of an Oscillator. And then Duty cycle is an fraction of time in which signal or system is active.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/clock_period.png" alt="display this" width=200 height=100 >
 
-<p><b>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</b>
+<p><b>Arduino PWM Frequency is 500 Hertz ~ 2 milliseconds</b></p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/Ton%20Toff%20relation.jpg" alt="display this" width=200 height=100 >
 </p>
 

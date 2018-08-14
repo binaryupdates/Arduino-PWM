@@ -47,7 +47,7 @@
 <p>Finally we will insert <b>255</b> into function <b>analogWrite(9, 255)</b>. With value 255 we will achieve <b>100% Duty Cycle</b> means Highest possible Brightness.</p>
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/step5.gif" alt="display this" width=300 height=100 >
 
-<p>So now we have seen how one can change <b>Duty Cycle</b> of a <b>Clock</b> and change the Brightness of an LED. Lets write a program which will vary duty cycle to generate variable voltage with an delay of every 1 Second.</p>
+<p>So now we have seen how one can change <b>Duty Cycle</b> of a <b>Clock</b> and change the Brightness of an LED. Lets write a program which will vary duty cycle to generate variable voltage with an delay of every <b>1 Second</b>. This will allows us to create dimming effect with LED.</p>
 
 
 

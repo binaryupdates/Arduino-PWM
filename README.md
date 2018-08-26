@@ -13,8 +13,6 @@
 <img src="https://github.com/binaryupdates/Arduino-PWM/blob/master/Ton%20Toff%20relation.jpg" alt="display this" width=200 height=100 >
 </p>
 
-<p>The Arduino's programming language makes PWM easy to use. Arduino supports function called <b>analogWrite(pin, dutyCycle)</b>. Where <b>Duty Cycles</b> value will be between <b>0 to 255</b> and <b>Pin</b> will be one of the <b>PWM pins (3, 5, 6, 9, 10, or 11)</b>on Arduino Uno board.<p> 
-
 <b>Note</b>
 <p>This PWM in Arduino doesn't provide any control over Frequency. Even if the name os function is <b>analogWrite(pin, dutyCycle)</b>, the output is a digital signal, often referred it as a <b>Square Wave.</b></p>
 
